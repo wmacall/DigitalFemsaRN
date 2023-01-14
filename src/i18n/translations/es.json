@@ -1,0 +1,14 @@
+{
+  "greeting_message": "Bienvenido de vuelta!",
+  "your_points": "Tus puntos",
+  "points_short": "{{points}} pts",
+  "your_movements": "Tus movimientos",
+  "all": "Todos",
+  "won": "Ganados",
+  "redeemed": "Canjeados",
+  "product_detail": "Detalles del producto:",
+  "points_accumulated": "Con esta compra acumulaste:",
+  "accept": "Aceptar",
+  "points_long": "{{points}} puntos",
+  "date_formatted": "{{day}} de {{month}}, {{year}}"
+}
