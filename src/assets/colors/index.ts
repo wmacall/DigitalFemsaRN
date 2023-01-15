@@ -1,0 +1,10 @@
+export const COLORS = {
+  WHITE: '#FFFFFF',
+  BLUE_RIBBON: '#334FFA',
+  BLACK: '#020202',
+  JADE: '#00B833',
+  DUSTY_GRAY: '#9B9898',
+  RED: '#FF0000',
+  ALABASTER: '#F8F8F8',
+  PERIWINKLE: '#CFD6FF',
+};
