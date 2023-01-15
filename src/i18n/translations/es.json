@@ -10,5 +10,6 @@
   "points_accumulated": "Con esta compra acumulaste:",
   "accept": "Aceptar",
   "points_long": "{{points}} puntos",
-  "date_formatted": "{{day}} de {{month}}, {{year}}"
+  "date_formatted": "{{day}} de {{month}}, {{year}}",
+  "date_of_purchase": "Comprado el {{date}"
 }
