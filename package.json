@@ -24,6 +24,7 @@
     "@babel/runtime": "^7.12.5",
     "@react-native-community/eslint-config": "^2.0.0",
     "@testing-library/jest-native": "^5.4.1",
+    "@testing-library/react-hooks": "^8.0.1",
     "@testing-library/react-native": "^11.5.0",
     "@tsconfig/react-native": "^2.0.2",
     "@types/jest": "^26.0.23",
@@ -49,7 +50,7 @@
       "@testing-library/jest-native/extend-expect"
     ],
     "transformIgnorePatterns": [
-      "node_modules/(?!(jest-)?react-native|@react-native|@react-navigation)"
+      "node_modules/(?!(jest-)?react-native|@react-native|@react-navigation|axios)"
     ],
     "moduleNameMapper": {
       "^src/api": "<rootDir>/src/api",

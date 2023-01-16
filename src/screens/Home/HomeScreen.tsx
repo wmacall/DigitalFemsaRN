@@ -21,10 +21,10 @@ export const HomeScreen = ({navigation}: THomeScreenProps) => {
   );
 
   return (
-    <View style={styles.container}>
+    <View testID="home-screen-container" style={styles.container}>
       <SafeAreaView />
       {isLoading ? (
-        <View style={styles.containerLoader}>
+        <View testID="home-screen-loader" style={styles.containerLoader}>
           <ActivityIndicator color={COLORS.BLUE_RIBBON} />
         </View>
       ) : (
