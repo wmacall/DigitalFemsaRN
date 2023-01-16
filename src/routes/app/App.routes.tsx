@@ -1,6 +1,6 @@
 import React from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import {HomeScreen} from '../../screens';
+import {HomeScreen, ProductScreen} from '../../screens';
 import {EAppRoutes, TAppStackRouter} from './App.routes.types';
 
 const AppStack = createNativeStackNavigator<TAppStackRouter>();
@@ -12,5 +12,9 @@ export const AppRoutes = () => (
       headerShown: false,
     }}>
     <AppStack.Screen name={EAppRoutes.HOME_SCREEN} component={HomeScreen} />
+    <AppStack.Screen
+      name={EAppRoutes.PRODUCT_DETAIL_SCREEN}
+      component={ProductScreen}
+    />
   </AppStack.Navigator>
 );

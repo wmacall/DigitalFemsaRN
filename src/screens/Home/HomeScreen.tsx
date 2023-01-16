@@ -1,23 +1,24 @@
 import React, {useCallback} from 'react';
-import {
-  ActivityIndicator,
-  Alert,
-  FlatList,
-  SafeAreaView,
-  View,
-} from 'react-native';
+import {ActivityIndicator, FlatList, SafeAreaView, View} from 'react-native';
+import {IProducts} from '../../api';
 import {COLORS} from '../../assets';
 import {Button, PointsCard, ProductCard, Typography} from '../../components';
 import {useProducts} from '../../hooks';
 import {translate} from '../../i18n';
+import {EAppRoutes} from '../../routes';
 import styles from './HomeScreen.styles';
+import {THomeScreenProps} from './HomeScreen.types';
 
-export const HomeScreen = () => {
+export const HomeScreen = ({navigation}: THomeScreenProps) => {
   const {isLoading, products, points, filter, onFilterProducts, onResetFilter} =
     useProducts();
-  const onPressCard = useCallback((id: string) => {
-    Alert.alert(id);
-  }, []);
+  const {navigate} = navigation;
+  const onPressCard = useCallback(
+    (product: IProducts) => {
+      navigate(EAppRoutes.PRODUCT_DETAIL_SCREEN, {product});
+    },
+    [navigate],
+  );
 
   return (
     <View style={styles.container}>
@@ -49,7 +50,7 @@ export const HomeScreen = () => {
           bounces={false}
           contentContainerStyle={styles.contentContainerStyle}
           renderItem={({item}) => (
-            <ProductCard {...item} onPress={() => onPressCard(item.id)} />
+            <ProductCard {...item} onPress={() => onPressCard(item)} />
           )}
           ListFooterComponentStyle={styles.ListFooterComponentStyle}
           ListFooterComponent={() =>
