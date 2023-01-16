@@ -19,10 +19,14 @@ export default StyleSheet.create({
     borderRadius: theme.scaleWidth(10),
   },
   contentContainerStyle: {
-    paddingBottom: theme.scaleHeight(40),
+    paddingBottom: theme.scaleHeight(20),
+    backgroundColor: COLORS.WHITE,
+    paddingTop: theme.scaleHeight(23),
+    borderRadius: theme.scaleWidth(10),
   },
   ListFooterComponentStyle: {
     marginTop: theme.scaleHeight(43),
+    paddingBottom: theme.scaleHeight(40),
   },
   row: {
     flexDirection: 'row',

@@ -1,5 +1,6 @@
 import React, {useCallback} from 'react';
-import {Image, SafeAreaView, ScrollView, View} from 'react-native';
+import {Image, SafeAreaView, ScrollView, StatusBar, View} from 'react-native';
+import {COLORS} from '../../assets';
 import {Button, Typography} from '../../components';
 import {translate} from '../../i18n';
 import styles from './ProductScreen.styles';
@@ -15,6 +16,7 @@ export const ProductScreen = ({route, navigation}: TProductScreenProps) => {
 
   return (
     <View testID="product-screen-container" style={styles.container}>
+      <StatusBar barStyle="dark-content" backgroundColor={COLORS.PERIWINKLE} />
       <SafeAreaView style={styles.header}>
         <View style={styles.containerHeader}>
           <Typography variant="header">{product.product}</Typography>
