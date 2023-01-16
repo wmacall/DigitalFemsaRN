@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1673884807436" clover="3.2.0">
+  <project timestamp="1673884807436" name="All files">
+    <metrics statements="127" coveredstatements="110" conditionals="34" coveredconditionals="22" methods="39" coveredmethods="30" elements="200" coveredelements="162" complexity="0" loc="127" ncloc="127" packages="17" files="37" classes="37"/>
+    <package name="api">
+      <metrics statements="10" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="dispatchRequest.ts" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/api/dispatchRequest.ts">
+        <metrics statements="8" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/api/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="products.ts" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/api/products.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="assets">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/assets/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="assets.colors">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/assets/colors/index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="assets.images">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="arrow.png" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/assets/images/arrow.png">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+      </file>
+      <file name="image_placeholder.png" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/assets/images/image_placeholder.png">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="components">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/components/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="components.Button">
+      <metrics statements="7" coveredstatements="6" conditionals="3" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="Button.styles.ts" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/components/Button/Button.styles.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="Button.tsx" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/components/Button/Button.tsx">
+        <metrics statements="7" coveredstatements="6" conditionals="3" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="10" count="6" type="cond" truecount="2" falsecount="1"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="20" count="6" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/components/Button/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="components.PointsCard">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="PointsCard.style.ts" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/components/PointsCard/PointsCard.style.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="PointsCard.tsx" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/components/PointsCard/PointsCard.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/components/PointsCard/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="components.ProductCard">
+      <metrics statements="2" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="ProductCard.styles.ts" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/components/ProductCard/ProductCard.styles.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="ProductCard.tsx" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/components/ProductCard/ProductCard.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/components/ProductCard/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="components.Typography">
+      <metrics statements="17" coveredstatements="13" conditionals="13" coveredconditionals="9" methods="2" coveredmethods="2"/>
+      <file name="Typography.styles.ts" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/components/Typography/Typography.styles.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+      </file>
+      <file name="Typography.tsx" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/components/Typography/Typography.tsx">
+        <metrics statements="15" coveredstatements="11" conditionals="13" coveredconditionals="9" methods="2" coveredmethods="2"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="14" count="32" type="stmt"/>
+        <line num="15" count="32" type="cond" truecount="7" falsecount="4"/>
+        <line num="17" count="10" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="21" count="11" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="29" count="4" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="33" count="4" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="41" count="32" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/components/Typography/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="hooks">
+      <metrics statements="23" coveredstatements="22" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="7"/>
+      <file name="index.ts" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/hooks/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="useProducts.ts" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/hooks/useProducts.ts">
+        <metrics statements="23" coveredstatements="22" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="7"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="29" type="stmt"/>
+        <line num="7" count="29" type="stmt"/>
+        <line num="8" count="29" type="stmt"/>
+        <line num="9" count="29" type="stmt"/>
+        <line num="11" count="29" type="stmt"/>
+        <line num="12" count="7" type="stmt"/>
+        <line num="13" count="7" type="stmt"/>
+        <line num="14" count="7" type="stmt"/>
+        <line num="15" count="7" type="stmt"/>
+        <line num="16" count="7" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="22" count="29" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="26" count="29" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="30" count="29" type="stmt"/>
+        <line num="31" count="17" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="14" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="38" count="29" type="stmt"/>
+        <line num="39" count="7" type="stmt"/>
+        <line num="42" count="29" type="stmt"/>
+      </file>
+    </package>
+    <package name="i18n">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="index.ts" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/i18n/index.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="22" count="32" type="cond" truecount="1" falsecount="1"/>
+      </file>
+    </package>
+    <package name="routes">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/routes/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="routes.app">
+      <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="App.routes.tsx" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/routes/app/App.routes.tsx">
+        <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+      </file>
+      <file name="App.routes.types.ts" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/routes/app/App.routes.types.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="index.ts" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/routes/app/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="screens">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/screens/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="screens.Home">
+      <metrics statements="12" coveredstatements="7" conditionals="4" coveredconditionals="3" methods="9" coveredmethods="3"/>
+      <file name="HomeScreen.styles.ts" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/screens/Home/HomeScreen.styles.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="HomeScreen.tsx" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/screens/Home/HomeScreen.tsx">
+        <metrics statements="12" coveredstatements="7" conditionals="4" coveredconditionals="3" methods="9" coveredmethods="3"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="57" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/screens/Home/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="screens.Product">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="ProductScreen.styles.ts" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/screens/Product/ProductScreen.styles.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="ProductScreen.tsx" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/screens/Product/ProductScreen.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/screens/Product/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="37" coveredstatements="36" conditionals="6" coveredconditionals="5" methods="11" coveredmethods="10"/>
+      <file name="formatters.ts" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/utils/formatters.ts">
+        <metrics statements="19" coveredstatements="18" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="5"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="7" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="32" count="6" type="stmt"/>
+        <line num="38" count="3" type="stmt"/>
+        <line num="39" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="40" count="6" type="stmt"/>
+        <line num="41" count="6" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="44" count="6" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/utils/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="theme.ts" path="/Users/waltermacall/Desktop/DigitalFemsaRN/src/utils/theme.ts">
+        <metrics statements="18" coveredstatements="18" conditionals="2" coveredconditionals="1" methods="5" coveredmethods="5"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="36" type="stmt"/>
+        <line num="10" count="36" type="stmt"/>
+        <line num="11" count="36" type="stmt"/>
+        <line num="12" count="36" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="65" type="stmt"/>
+        <line num="16" count="65" type="stmt"/>
+        <line num="17" count="65" type="stmt"/>
+        <line num="18" count="65" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="22" count="36" type="stmt"/>
+        <line num="23" count="37" type="stmt"/>
+        <line num="24" count="28" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

@@ -14,7 +14,7 @@ export const ProductScreen = ({route, navigation}: TProductScreenProps) => {
   }, [goBack]);
 
   return (
-    <View style={styles.container}>
+    <View testID="product-screen-container" style={styles.container}>
       <SafeAreaView style={styles.header}>
         <View style={styles.containerHeader}>
           <Typography variant="header">{product.product}</Typography>
@@ -26,6 +26,7 @@ export const ProductScreen = ({route, navigation}: TProductScreenProps) => {
         showsVerticalScrollIndicator={false}>
         <View style={styles.containerImage}>
           <Image
+            testID="product-image"
             defaultSource={require('../../assets/images/image_placeholder.png')}
             style={styles.image}
             source={{uri: product.image}}
